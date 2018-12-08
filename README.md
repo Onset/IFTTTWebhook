@@ -30,7 +30,7 @@ Once you're logged into IFTTT you can get your API key by going to https://ifttt
 Instantiate an `IFTTTWebhook` object using your API key and the event name:
 
 ```
-IFTTTWeb webhook(YOUR_IFTTT_API_KEY, YOUR_IFTTT_EVENT_NAME);
+IFTTTWebhook webhook(YOUR_IFTTT_API_KEY, YOUR_IFTTT_EVENT_NAME);
 ```
 
 When you want to trigger the webhook, call the `trigger` method with zero to three `char*` to be passed as values:
